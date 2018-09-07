@@ -1,0 +1,30 @@
+{
+    "name": "ts-project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "ts-loader": "^5.0.0",
+        "typescript": "^3.0.3",
+        "vue": "^2.5.17"
+    },
+    "devDependencies": {
+        "css-loader": "^0.28.7",
+        "file-loader": "^2.0.0",
+        "vue-class-component": "^6.2.0",
+        "vue-loader": "^15.4.1",
+        "vue-property-decorator": "^7.0.0",
+        "vue-template-compiler": "^2.5.17",
+        "webpack": "^4.17.2",
+        "webpack-cli": "^3.1.0",
+        "webpack-dev-server": "^3.1.8"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "webpack-dev-server --mode development --open --hot",
+        "build": "webpack --progress --mode production --hide-modules"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
